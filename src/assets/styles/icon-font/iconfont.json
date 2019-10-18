@@ -1,0 +1,30 @@
+{
+  "id": "1464459",
+  "name": "Travel-learn",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "Travel-learn-icon",
+  "glyphs": [
+    {
+      "icon_id": "4485667",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6802195",
+      "name": "Left-2",
+      "font_class": "Left-",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "6802256",
+      "name": "Down-6",
+      "font_class": "Down-",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    }
+  ]
+}

@@ -5,10 +5,10 @@
         <span class="iconfont iconLeft-"></span>
       </div>
       <div class="header-input">
-        <span class="iconfont iconsousuo"></span>输入
+        <span class="iconfont iconsousuo"></span>输入111
        </div>
       <div class="header-right">
-        <span class="iconfont iconDown-"></span>城市
+        <span class="iconfont iconDown-"></span>{{city}}
         </div>
     </div>
   </div>
@@ -16,7 +16,10 @@
 
 <script>
 export default {
-  name: 'HomeHerder'
+  name: 'HomeHerder',
+  props: {
+    city: String
+  }
 }
 </script>
 

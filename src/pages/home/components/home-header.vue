@@ -6,10 +6,12 @@
       </div>
       <div class="header-input">
         <span class="iconfont iconsousuo"></span>输入111
-       </div>
-      <div class="header-right">
-        <span class="iconfont iconDown-"></span>{{city}}
+      </div>
+      <router-link to="/city">
+        <div class="header-right">
+          <span class="iconfont iconDown-"></span>{{city}}
         </div>
+      </router-link>
     </div>
   </div>
 </template>
@@ -24,19 +26,27 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  .header
-    display flex
-    line-height: .86rem
-    background: #00bcd4
-    .header-left
-      width: .64rem
-    .header-input
-      flex: 1
-      height .64rem
-      line-height .64rem
-      margin-top .12rem
-      background #FFFFFF
-    .header-right
-      width: 1.24rem
-      text-align center
+.header {
+  display: flex;
+  line-height: 0.86rem;
+  background: #00bcd4;
+
+  .header-left {
+    width: 0.64rem;
+  }
+
+  .header-input {
+    flex: 1;
+    height: 0.64rem;
+    line-height: 0.64rem;
+    margin-top: 0.12rem;
+    background: #FFFFFF;
+  }
+
+  .header-right {
+    color: #fff;
+    width: 1.24rem;
+    text-align: center;
+  }
+}
 </style>
